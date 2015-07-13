@@ -1,0 +1,10 @@
+<antlib>
+  <!-- typedef the tasks that work for ant less than 1.6 -->
+  <taskdef resource="com/alfalaval/ecom/propertymerger.properties"/>
+
+  <!-- condition typedefs - these do not work for ant less than 1.6 -->
+ 
+  <typedef
+    name="PropertyMerger"
+    classname="com.alfalaval.ecom.DefaultPropertyMerger"/>
+</antlib>
